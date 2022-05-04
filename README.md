@@ -2,10 +2,11 @@
 
 
 Functions
-Admin
+### Admin
+#### username : Admin Password:123
   Admin account and Login.
   Can Add, View, Book
-  
+
 Student
   Can view the book only 
 Api of Add, view,delete book
