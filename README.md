@@ -5,9 +5,20 @@ Functions
 Admin
   Admin account and Login.
   Can Add, View, Book
+  
 Student
   Can view the book only 
-	
+Api of Add, view,delete book
+GET http://127.0.0.1:8000/library/?format=json
+POST http://127.0.0.1:8000/library/?format=json
+example
+{
+"name":"python"
+"isbn":2410
+"author":"somesh"
+"description":"python book"
+}
+DEL http://127.0.0.1:8000/library/{id of book to delete}/
 # Prerequisites
 ## MySQL
 Install MySQL
@@ -30,7 +41,6 @@ storages stores the storage info
 # HOW TO RUN THIS PROJECT
 Install Python(3.8.6) (Dont Forget to Tick Add to Path while installing Python)
 Open Terminal and Execute Following Commands :
-python -m pip install -r requirements. txt
 Download This Project Zip Folder and Extract it
 Move to project folder in Terminal. Then run following Commands :
 py manage.py makemigrations
